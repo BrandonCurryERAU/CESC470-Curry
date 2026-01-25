@@ -1,3 +1,5 @@
+![1000008281](https://github.com/user-attachments/assets/97162150-1bee-4343-8fbd-2fddd3907ba6)
+
 Description:
 
 The FSM for my traffic light controller shows four different states (S0, S1, S2, and S3). The S0 state describes Street1 as staying green and continuously staying in this state unless an input from Street2 is received. S1 is a state where the light transitions from green to yellow, and this cannot change regardless of input. For S2, Street2 is now green and Street1 light is red. This state will remain this way unless an input from Street1 is recieved. Similar to S1, S3 is an unchanging state that will transition back to S0 regardless of input since the light for Street2 is transitioning to yellow and then back to red. 
