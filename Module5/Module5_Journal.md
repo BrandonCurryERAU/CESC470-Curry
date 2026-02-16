@@ -12,7 +12,7 @@ funct = 6 bits
 
 I-type instructions are meant for immedicate operations or load/store operations. 
 
-I-Type LW instruction:\
+**I-Type LW instruction:**\
 opcode = 6 bits\
 rs = 5 bits\
 rt = 5 bits\
