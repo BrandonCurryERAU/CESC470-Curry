@@ -3,8 +3,8 @@ My ISA is named XRISC-32 and is designed for simplicity and meant for smaller em
 R-Type instructions are meant for register operations performed by the ALU.
 
 R-type ADDR / SUBR instructions:
-opcode = 6 bits
-rs = 5 bits
+- opcode = 6 bits
+- rs = 5 bits
 rt = 5 bits
 rd = 5 bits
 shamt(shift instruction) = 5 bits
