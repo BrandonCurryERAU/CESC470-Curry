@@ -21,6 +21,7 @@ imm = 16 bits (for immediate arithmetic)
 ADDR R1, R2, R3 
 
 | opcode (6) | rs (5) | rt (5) | rd (5) | shamt (5) | funct (6) |
+|----------|----------|----------|----------|----------|----------|
 | 000000 | 00010 | 00011 | 00001 | 00000 | 100000 |
 
 SUBR R1, R2, R3
@@ -33,5 +34,7 @@ LW R1,
 | opcode (6) | rs (5) | rt (5) | immediate (16) |
 | 001000   |  00010 |  00001 | 0000000000001010 |
 
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
 | Row 1    | Data     | Data     |
 | Row 2    | Data     | Data     |
