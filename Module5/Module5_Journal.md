@@ -2,21 +2,21 @@ My ISA is named XRISC-32 and is designed for simplicity and meant for smaller em
 
 R-Type instructions are meant for register operations performed by the ALU.
 
-R-type ADDR / SUBR instructions:
-opcode = 6 bits
-rs = 5 bits
-rt = 5 bits
-rd = 5 bits
-shamt(shift instruction) = 5 bits
-funct = 6 bits
+R-type ADDR / SUBR instructions:\
+opcode = 6 bits\
+rs = 5 bits\
+rt = 5 bits\
+rd = 5 bits\
+shamt(shift instruction) = 5 bits\
+funct = 6 bits\
 
 I-type instructions are meant for immedicate operations or load/store operations. 
 
-I-Type LW instruction:
-opcode = 6 bits
-rs = 5 bits
-rt = 5 bits
-imm = 16 bits (for immediate arithmetic)
+I-Type LW instruction:\
+opcode = 6 bits\
+rs = 5 bits\
+rt = 5 bits\
+imm = 16 bits (for immediate arithmetic)\
 
 ADDR R1, R2, R3 
 
