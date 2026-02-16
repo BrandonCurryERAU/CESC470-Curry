@@ -33,7 +33,5 @@ LW R1,
 | opcode (6) | rs (5) | rt (5) | immediate (16) |
 | 001000   |  00010 |  00001 | 0000000000001010 |
 
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
 | Row 1    | Data     | Data     |
 | Row 2    | Data     | Data     |
