@@ -1,3 +1,5 @@
+# XRISC-32 ISA
+
 My ISA is named XRISC-32 and is designed for simplicity and meant for smaller embedded-systems for small-medium sized devices. The XRISC-32 ISA is 32-bit width and has fixed-size intructions to be operating in single cycles, much like the commercially used RISC out today. An example of some R-Type instruction types are ADDR (Add registers), SUBR (subtract registers), and an example of a I-type instruction LW (Load Word). With a fixed-instruction set, pipelining will be efficient since there is small decoding complexity unlike CISC, which also requires multiple cycles. Since the ISA is also built for smaller systems, hardware cost will have an advantage since the ISA will be for less complex /powerful CPU chips that perform simple tasks.
 
 R-Type instructions are meant for register operations performed by the ALU. The ADDR instruction adds the values of RT and RD and saves into register RS. 
