@@ -1,8 +1,8 @@
 Here is a code example in C++ of adding integers into an array sequentially with no N-amount of strides involved. 
 
-for (int i = 0; i < 8; i++) {
+'for (int i = 0; i < 8; i++) {
     total += A[i];
-}
+}'
 
 Assume each integer size is 4 bytes, and each cach block size is 16 bytes. The cache is also originally empty upon clearing of cache memory. Since each block size is 16 bytes and each integer is 4-bytes, the total amount of integers each block can hold is 4 integers. Below is a breakdown of how much block will hold these integers:
 
