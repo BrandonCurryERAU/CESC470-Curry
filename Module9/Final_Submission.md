@@ -20,6 +20,8 @@ rs = 5 bits\
 rt = 5 bits\
 imm = 16 bits (for immediate arithmetic)
 
+**Example Binary Encodings:**
+
 ADDR R1, R2, R3 
 
 | opcode (6) | rs (5) | rt (5) | rd (5) | shamt (5) | funct (6) |
