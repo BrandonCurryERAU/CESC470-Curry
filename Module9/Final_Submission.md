@@ -55,6 +55,38 @@ For this modification, two multiplexors were added with a forwarding / bypassing
 
 <img width="1000" height="439" alt="imageedit_1_2373879458" src="https://github.com/user-attachments/assets/b1524be0-cbe6-4791-a5a2-13f151dcf72c" />
 
+**Processor Memory Hierarchy and Cahce Behavior**
+
+For my memory hierarchy, my configuration is set to these specifications:
+
+**L1 Cache:**
+Size: 64 KB
+Associativity: 4-way set associative
+Block size: 16 bytes
+Latency: about 1 cycle
+
+**L2 Cache:**
+Size: 256 KB
+Associativity: 4-way set associative
+Block size: 16 bytes
+Latency: about 1–2 cycles
+
+**Main Memory:**
+Size: 16 GB RAM
+Latency: about 4 cycles
+
+For this example, the cache access pattern will be a sequential array tranversal. 
+
+```
+for (int i = 0; i < 8; i++) {
+    total += A[i];
+}
+```
+
+Each 16-byte block holds 4 elements.
+
+As each integer is implemented into each block, a cache behavior table is shown which shows the hit/miss patterns:
+
 | Access # | Address | Block # | L1 Result | L2 Result | Reason                   |
 | -------- | ------- | ------- | --------- | --------- | ------------------------ |
 | 1        | 0x00    | 0       | Miss      | Miss      | Cold miss (first access) |
