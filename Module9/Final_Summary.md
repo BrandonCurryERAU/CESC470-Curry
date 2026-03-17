@@ -1,1 +1,1 @@
-
+The XRISC-32 is meant to be a basic processor with a pipelined data path that prioritizes efficiency and consistent instruction throughput. As shown in a diagram on the final submission file, the pipeline is divided into 5 stages, as well a forwarding method, to manage data hazards and mitigate stalls. 
