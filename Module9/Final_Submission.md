@@ -55,4 +55,18 @@ For this modification, two multiplexors were added with a forwarding / bypassing
 
 <img width="1000" height="439" alt="imageedit_1_2373879458" src="https://github.com/user-attachments/assets/b1524be0-cbe6-4791-a5a2-13f151dcf72c" />
 
+| Access # | Address | Block # | L1 Result | L2 Result | Reason                   |
+| -------- | ------- | ------- | --------- | --------- | ------------------------ |
+| 1        | 0x00    | 0       | Miss      | Miss      | Cold miss (first access) |
+| 2        | 0x04    | 0       | Hit       | —         | Same block               |
+| 3        | 0x08    | 0       | Hit       | —         | Same block               |
+| 4        | 0x0C    | 0       | Hit       | —         | Same block               |
+| 5        | 0x10    | 1       | Miss      | Miss      | New block                |
+| 6        | 0x14    | 1       | Hit       | —         | Same block               |
+| 7        | 0x18    | 1       | Hit       | —         | Same block               |
+| 8        | 0x1C    | 1       | Hit       | —         | Same block               |
+| 9        | 0x20    | 2       | Miss      | Miss      | New block                |
+| 10       | 0x24    | 2       | Hit       | —         | Same block               |
+| 11       | 0x28    | 2       | Hit       | —         | Same block               |
+| 12       | 0x2C    | 2       | Hit       | —         | Same block               |
 
