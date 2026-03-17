@@ -48,6 +48,7 @@ LW R3, 4(R2)
 
 <img width="1198" height="474" alt="553862193-a15e9334-5cb4-4e21-b073-0616a43e2556" src="https://github.com/user-attachments/assets/fab20fa2-2b51-461a-ae24-4269a01d80e5" />
 
+
 **Pipeline Modifications** 
 
 For this modification, two multiplexors were added with a forwarding / bypassing pathway after ALU execution to prevent from data stalls incase of a data hazard. This can be caused if an instruction is performed which requires the value of a register from an arithmetic instruction immediately before it. Adding this forwarding method helps to provide the value directly to the next instruction so there wouldn't be a delay waiting for the new value to be loaded into the register. The diagram is shown below for the change:
