@@ -1,3 +1,5 @@
+# My processor: The XRISC-32 ISA
+
 The XRISC-32 ISA is designed with simplicity as a primary objective, targeting small to medium-sized embedded systems. It is a 32-bit architecture that uses fixed-length instructions, enabling efficient single-cycle execution similar to modern RISC architectures. This fixed instruction format reduces decoding complexity, which in turn improves pipeline efficiency compared to more complex CISC designs that often require multiple cycles per instruction.
 
 The ISA supports standard instruction formats, including R-type and I-type instructions. Examples of R-type instructions include ADDR (register addition) and SUBR (register subtraction), while an example of an I-type instruction is LW (load word). Because of the streamlined design and reduced hardware complexity, XRISC-32 is well-suited for cost-sensitive systems, as it requires less complex and less power-hungry CPU implementations.
