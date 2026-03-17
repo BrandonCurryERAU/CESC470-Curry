@@ -12,8 +12,6 @@ rd = 5 bits\
 shamt(shift instruction) = 5 bits\
 funct = 6 bits
 
-I-type instructions are meant for immedicate operations or load/store operations. The LW instruction either adds an immediate value (imm) into register RS, or loads the value of register RT into register RS.
-
 **I-Type LW instruction:**\
 opcode = 6 bits\
 rs = 5 bits\
