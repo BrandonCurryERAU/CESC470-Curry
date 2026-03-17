@@ -42,7 +42,7 @@ LW R3, 4(R2)
 |----------|----------|----------|----------|
 | 001000   |  00010 |  00001 | 0000000000001010 |
 
-# Diagrams
+# Diagrams and Pipeline Modifications
 **Single Cycle Diagram:**
 
 <img width="1195" height="520" alt="544081320-554ed445-7806-4fb3-9fac-93966a64ef37" src="https://github.com/user-attachments/assets/a4d64b39-44ef-4e53-9788-8bc278532b72" />
@@ -58,7 +58,7 @@ For this modification, two multiplexors were added with a forwarding / bypassing
 
 <img width="1000" height="439" alt="imageedit_1_2373879458" src="https://github.com/user-attachments/assets/b1524be0-cbe6-4791-a5a2-13f151dcf72c" />
 
-**Processor Memory Hierarchy and Cahce Behavior**
+# Processor Memory Hierarchy and Cahce Behavior
 
 For my memory hierarchy, my configuration is set to these specifications:
 
