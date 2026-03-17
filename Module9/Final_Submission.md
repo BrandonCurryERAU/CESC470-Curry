@@ -102,3 +102,5 @@ As each integer is implemented into each block, a cache behavior table is shown 
 | 11       | 0x28    | 2       | Hit       | —         | Same block               |
 | 12       | 0x2C    | 2       | Hit       | —         | Same block               |
 
+Grabbing from these results, there are 3 hits in every 4 accesses which means a hit rate of 75% and a miss rate of 25%. This also produces an AMAT of 1.5 cycles since L1 has a miss rate of 25% and the worst case hit rate of L2 is 2 cycles.
+
